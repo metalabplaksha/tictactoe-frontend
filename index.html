@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1152 height=648 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -63,9 +63,9 @@
         frameworkUrl: buildUrl + "/WebBuilds.framework.js",
         codeUrl: buildUrl + "/WebBuilds.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "DigiTTLab",
         productName: "NN_Viz",
-        productVersion: "0.1",
+        productVersion: "0.2",
         showBanner: unityShowBanner,
       };
 
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1152px";
+        canvas.style.height = "648px";
       }
 
       loadingBar.style.display = "block";
